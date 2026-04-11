@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONFORTLOC — Location de Voitures Premium à Marrakech</title>
+    <meta name="description" content="Location de voitures de luxe et économiques à Marrakech, Casablanca, Agadir. Réservation en ligne, prix transparents et service premium. CONFORTLOC, votre partenaire mobilité au Maroc.">
+    <meta name="keywords" content="location voiture marrakech, location voiture luxe, rent car morocco, location SUV marrakech, CONFORTLOC">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+</head>
+<body>
+
+    <!-- ===================== HEADER ===================== -->
+    <header id="header" class="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <img src="assets/img/logo.png" alt="COMFORLOC Logo" style="height: 60px; object-fit: contain; width: auto; max-width: 350px; transform: scale(1.15);">
+            </a>
+            <nav class="header__nav" id="mainNav">
+                <a href="#hero" class="nav__link active">Accueil</a>
+                <a href="#fleet" class="nav__link">Notre Flotte</a>
+                <a href="#services" class="nav__link">Services</a>
+                <a href="#testimonials" class="nav__link">Avis</a>
+                <a href="#contact" class="nav__link">Contact</a>
+            </nav>
+            <div class="header__actions">
+                <a href="tel:+212661240710" class="header__phone">
+                    <span class="phone__icon">📞</span>
+                    <span class="phone__number">+212 661 240 710</span>
+                </a>
+                <a href="#fleet" class="btn btn--primary btn--sm">Réserver</a>
+                <button class="header__burger" id="burgerBtn" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+        <!-- ===================== HERO ===================== -->
+    <section id="hero" class="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__container">
+            <div class="hero__content">
+                <div class="hero__badge">Location de voitures premium • Marrakech</div>
+                <h1 class="hero__title">
+                    Location de voitures<br>
+                    <span class="text--gradient">de luxe à Marrakech</span>
+                </h1>
+                <p class="hero__subtitle">
+                    Véhicules haut de gamme, service discret et expérience sur mesure<br>
+                    pour une clientèle exigeante.
+                </p>
+                <div class="hero__cta">
+                    <a href="#fleet" class="btn btn--primary btn--lg">
+                        <span>Découvrir la flotte</span>
+                    </a>
+                    <a href="https://wa.me/212661240710" class="btn btn--outline-white btn--lg" target="_blank">
+                        <span>WhatsApp</span>
+                    </a>
+                </div>
+                <div class="hero__features">
+                    <span>Prise en charge gratuite à Casablanca</span>
+                    <span>SUV & berlines de prestige</span>
+                    <span>Conciergerie 24/7</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scrolling Ticker -->
+        <div class="hero__ticker">
+            <div class="ticker__track">
+                <span>Rabat</span><span class="dot">•</span>
+                <span>Tanger</span><span class="dot">•</span>
+                <span>Aéroport</span><span class="dot">•</span>
+                <span>SUV de luxe</span><span class="dot">•</span>
+                <span>Location longue durée</span><span class="dot">•</span>
+                <span>Marrakech</span><span class="dot">•</span>
+                <span>Casablanca</span><span class="dot">•</span>
+                <span>Agadir</span><span class="dot">•</span>
+                <span>Rabat</span><span class="dot">•</span>
+                <span>Tanger</span><span class="dot">•</span>
+                <span>Aéroport</span><span class="dot">•</span>
+                <span>SUV de luxe</span><span class="dot">•</span>
+                <span>Location longue durée</span><span class="dot">•</span>
+                <span>Marrakech</span><span class="dot">•</span>
+                <span>Casablanca</span><span class="dot">•</span>
+                <span>Agadir</span>
+            </div>
+            <div class="ticker__track" aria-hidden="true">
+                <span>Rabat</span><span class="dot">•</span>
+                <span>Tanger</span><span class="dot">•</span>
+                <span>Aéroport</span><span class="dot">•</span>
+                <span>SUV de luxe</span><span class="dot">•</span>
+                <span>Location longue durée</span><span class="dot">•</span>
+                <span>Marrakech</span><span class="dot">•</span>
+                <span>Casablanca</span><span class="dot">•</span>
+                <span>Agadir</span><span class="dot">•</span>
+                <span>Rabat</span><span class="dot">•</span>
+                <span>Tanger</span><span class="dot">•</span>
+                <span>Aéroport</span><span class="dot">•</span>
+                <span>SUV de luxe</span><span class="dot">•</span>
+                <span>Location longue durée</span><span class="dot">•</span>
+                <span>Marrakech</span><span class="dot">•</span>
+                <span>Casablanca</span><span class="dot">•</span>
+                <span>Agadir</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FLEET SECTION ===================== -->
+    <section id="fleet" class="fleet">
+        <div class="fleet__container">
+            <div class="section-header">
+                <span class="section-tag">Notre Flotte</span>
+                <h2 class="section-title">Trouvez Votre <span class="text--gradient">Véhicule Idéal</span></h2>
+                <p class="section-subtitle">Des citadines économiques aux SUV premium — chaque véhicule est entretenu avec soin pour votre confort.</p>
+            </div>
+
+            <!-- Filters -->
+            <div class="fleet__filters" id="fleetFilters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="economy">Économique</button>
+                <button class="filter-btn" data-filter="family">Familiale</button>
+                <button class="filter-btn" data-filter="suv">SUV</button>
+            </div>
+
+            <!-- Vehicle Grid -->
+            <div class="fleet__grid" id="fleetGrid">
+                <!-- Hyundai Tucson -->
+                <div class="car-card" data-category="suv" data-aos="fade-up">
+                    <div class="car-card__badge ">Populaire</div>
+                    <div class="car-card__image">
+                        <img src="assets/tucson/Hyundai Tucson 1.png" alt="Hyundai Tucson" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/tucson/Hyundai Tucson 1.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/tucson/Hyundai Tucson 1.png">
+                            <img src="assets/tucson/Hyundai Tucson 2.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/tucson/Hyundai Tucson 2.png">
+                            <img src="assets/tucson/Hyundai Tucson 3.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/tucson/Hyundai Tucson 3.png">
+                            <img src="assets/tucson/Hyundai Tucson 4.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/tucson/Hyundai Tucson 4.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Hyundai Tucson</h3>
+                            <span class="car-card__category">SUV Premium</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Auto</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">600</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Hyundai%20Tucson" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Dacia Duster -->
+                <div class="car-card" data-category="suv" data-aos="fade-up">
+                    <div class="car-card__badge badge--green">Meilleur Prix</div>
+                    <div class="car-card__image">
+                        <img src="assets/Dacia Duster/Dacia Duster-pic1.png" alt="Dacia Duster" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/Dacia Duster/Dacia Duster-pic1.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/Dacia Duster/Dacia Duster-pic1.png">
+                            <img src="assets/Dacia Duster/Dacia Duster-pic2.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/Dacia Duster/Dacia Duster-pic2.png">
+                            <img src="assets/Dacia Duster/Dacia Duster-pic3.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/Dacia Duster/Dacia Duster-pic3.png">
+                            <img src="assets/Dacia Duster/Dacia Duster-pic4.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/Dacia Duster/Dacia Duster-pic4.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Dacia Duster</h3>
+                            <span class="car-card__category">SUV / 4x4</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Manuel</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">350</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Dacia%20Duster" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Renault Clio 5 -->
+                <div class="car-card" data-category="economy" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/Renault Clio 5/model 5 Renault Clio-pic1.png" alt="Renault Clio 5" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/Renault Clio 5/model 5 Renault Clio-pic1.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/Renault Clio 5/model 5 Renault Clio-pic1.png">
+                            <img src="assets/Renault Clio 5/model 5 Renault Clio-pic2.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/Renault Clio 5/model 5 Renault Clio-pic2.png">
+                            <img src="assets/Renault Clio 5/model 5 Renault Clio-pic3.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/Renault Clio 5/model 5 Renault Clio-pic3.png">
+                            <img src="assets/Renault Clio 5/model 5 Renault Clio-pic4.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/Renault Clio 5/model 5 Renault Clio-pic4.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Renault Clio 5</h3>
+                            <span class="car-card__category">Citadine</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Manuel</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">300</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Renault%20Clio%205" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Kia Picanto -->
+                <div class="car-card" data-category="economy" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/Kia Picanto/Picanto 1.png" alt="Kia Picanto" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/Kia Picanto/Picanto 1.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/Kia Picanto/Picanto 1.png">
+                            <img src="assets/Kia Picanto/Picanto 2.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/Kia Picanto/Picanto 2.png">
+                            <img src="assets/Kia Picanto/Picanto 3.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/Kia Picanto/Picanto 3.png">
+                            <img src="assets/Kia Picanto/Picanto 4.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/Kia Picanto/Picanto 4.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Kia Picanto</h3>
+                            <span class="car-card__category">Citadine</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Manuel</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">250</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Kia%20Picanto" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hyundai Bayon -->
+                <div class="car-card" data-category="suv" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/Hyndai Bayon/Hyndai Bayond-pic1.png" alt="Hyundai Bayon" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/Hyndai Bayon/Hyndai Bayond-pic1.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/Hyndai Bayon/Hyndai Bayond-pic1.png">
+                            <img src="assets/Hyndai Bayon/Hyndai Bayon-pic2.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/Hyndai Bayon/Hyndai Bayon-pic2.png">
+                            <img src="assets/Hyndai Bayon/Hyandai Bayond-pic3.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/Hyndai Bayon/Hyandai Bayond-pic3.png">
+                            <img src="assets/Hyndai Bayon/Hyndai Bayon-pic4.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/Hyndai Bayon/Hyndai Bayon-pic4.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Hyundai Bayon</h3>
+                            <span class="car-card__category">Crossover (SUV)</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Auto</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">350</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Hyundai%20Bayon" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Opel Corsa F -->
+                <div class="car-card" data-category="economy" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/Opel Corsa F/Opel Corsa-pic1.png" alt="Opel Corsa F" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/Opel Corsa F/Opel Corsa-pic1.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/Opel Corsa F/Opel Corsa-pic1.png">
+                            <img src="assets/Opel Corsa F/Opel Corsa-pic2.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/Opel Corsa F/Opel Corsa-pic2.png">
+                            <img src="assets/Opel Corsa F/Opel Corsa-pic3.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/Opel Corsa F/Opel Corsa-pic3.png">
+                            <img src="assets/Opel Corsa F/Opel Corsa-pic4.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/Opel Corsa F/Opel Corsa-pic4.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Opel Corsa F</h3>
+                            <span class="car-card__category">Citadine</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Manuel</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">300</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Opel%20Corsa%20F" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Citroën C-Elysée -->
+                <div class="car-card" data-category="family" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/Citroën C-Elysée/Citroën C-Elysée-pic1.png" alt="Citroën C-Elysée" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/Citroën C-Elysée/Citroën C-Elysée-pic1.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/Citroën C-Elysée/Citroën C-Elysée-pic1.png">
+                            <img src="assets/Citroën C-Elysée/Citroën C-Elysée-pic2.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/Citroën C-Elysée/Citroën C-Elysée-pic2.png">
+                            <img src="assets/Citroën C-Elysée/Citroën C-Elysée-pic3.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/Citroën C-Elysée/Citroën C-Elysée-pic3.png">
+                            <img src="assets/Citroën C-Elysée/Citroën C-Elysée-pic4.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/Citroën C-Elysée/Citroën C-Elysée-pic4.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Citroën C-Elysée</h3>
+                            <span class="car-card__category">Berline (Familiale)</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Manuel</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">400</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Citro%C3%ABn%20C-Elys%C3%A9e" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Citroën C4 -->
+                <div class="car-card" data-category="suv" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/Citroën C4 (Current Gen)/Citroën C4 (Current Gen)-pic1.png" alt="Citroën C4" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/Citroën C4 (Current Gen)/Citroën C4 (Current Gen)-pic1.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/Citroën C4 (Current Gen)/Citroën C4 (Current Gen)-pic1.png">
+                            <img src="assets/Citroën C4 (Current Gen)/Citroën C4 (Current Gen)-pic2.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/Citroën C4 (Current Gen)/Citroën C4 (Current Gen)-pic2.png">
+                            <img src="assets/Citroën C4 (Current Gen)/Citroën C4 (Current Gen)-pic3.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/Citroën C4 (Current Gen)/Citroën C4 (Current Gen)-pic3.png">
+                            <img src="assets/Citroën C4 (Current Gen)/Citroën C4 (Current Gen)-pic4.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/Citroën C4 (Current Gen)/Citroën C4 (Current Gen)-pic4.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Citroën C4</h3>
+                            <span class="car-card__category">SUV Compact</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Auto</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">400</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Citro%C3%ABn%20C4" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hyundai Elantra -->
+                <div class="car-card" data-category="family" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/Hyundai Elantra Accent/show_the_car_202604081731.png" alt="Hyundai Elantra" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/Hyundai Elantra Accent/show_the_car_202604081731.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/Hyundai Elantra Accent/show_the_car_202604081731.png">
+                            <img src="assets/Hyundai Elantra Accent/now_from_the_202604081731.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/Hyundai Elantra Accent/now_from_the_202604081731.png">
+                            <img src="assets/Hyundai Elantra Accent/now_from_inside_202604081731.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/Hyundai Elantra Accent/now_from_inside_202604081731.png">
+                            <img src="assets/Hyundai Elantra Accent/now_put_this_202604081731.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/Hyundai Elantra Accent/now_put_this_202604081731.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Hyundai Elantra</h3>
+                            <span class="car-card__category">Berline (Familiale)</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Auto</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">300</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Hyundai%20Elantra" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Dacia Logan -->
+                <div class="car-card" data-category="economy" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/dacia logan/Dacia logan-pic1.png" alt="Dacia Logan" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/dacia logan/Dacia logan-pic1.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/dacia logan/Dacia logan-pic1.png">
+                            <img src="assets/dacia logan/Dacia logan-pic2.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/dacia logan/Dacia logan-pic2.png">
+                            <img src="assets/dacia logan/Dacia logan-pic3.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/dacia logan/Dacia logan-pic3.png">
+                            <img src="assets/dacia logan/Dacia logan-pic4.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/dacia logan/Dacia logan-pic4.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Dacia Logan</h3>
+                            <span class="car-card__category">Économique</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Manuel</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">250</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Dacia%20Logan" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Dacia Sandero Stepway -->
+                <div class="car-card" data-category="suv" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/dacia sandero Stepway/dacia sandero stepway-pic1.png" alt="Dacia Sandero Stepway" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/dacia sandero Stepway/dacia sandero stepway-pic1.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/dacia sandero Stepway/dacia sandero stepway-pic1.png">
+                            <img src="assets/dacia sandero Stepway/dacia sandero stepway-pic2.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/dacia sandero Stepway/dacia sandero stepway-pic2.png">
+                            <img src="assets/dacia sandero Stepway/Dacia Sandero Stepway-pic3.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/dacia sandero Stepway/Dacia Sandero Stepway-pic3.png">
+                            <img src="assets/dacia sandero Stepway/dacia sandero stepway-pic4.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/dacia sandero Stepway/dacia sandero stepway-pic4.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Dacia Sandero Stepway</h3>
+                            <span class="car-card__category">Crossover (SUV)</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Manuel</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">250</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Dacia%20Sandero%20Stepway" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hyundai Accent -->
+                <div class="car-card" data-category="family" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/hyandai accent/Hyundai Accent-pic1.png" alt="Hyundai Accent" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/hyandai accent/Hyundai Accent-pic1.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/hyandai accent/Hyundai Accent-pic1.png">
+                            <img src="assets/hyandai accent/Hyundai Accent-pic2.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/hyandai accent/Hyundai Accent-pic2.png">
+                            <img src="assets/hyandai accent/Hyundai Accent-pic3.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/hyandai accent/Hyundai Accent-pic3.png">
+                            <img src="assets/hyandai accent/Hyundai Accent-pic4.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/hyandai accent/Hyundai Accent-pic4.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Hyundai Accent</h3>
+                            <span class="car-card__category">Berline (Familiale)</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Auto</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">350</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Hyundai%20Accent" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hyundai i20 -->
+                <div class="car-card" data-category="economy" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/hyandai i20/from_front_2K_202604081807.png" alt="Hyundai i20" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/hyandai i20/from_front_2K_202604081807.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/hyandai i20/from_front_2K_202604081807.png">
+                            <img src="assets/hyandai i20/now_put_this_202604081808.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/hyandai i20/now_put_this_202604081808.png">
+                            <img src="assets/hyandai i20/now_from_inside_202604081808.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/hyandai i20/now_from_inside_202604081808.png">
+                            <img src="assets/hyandai i20/from_behind_2K_202604081808.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/hyandai i20/from_behind_2K_202604081808.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Hyundai i20</h3>
+                            <span class="car-card__category">Citadine</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Manuel</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">250</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Hyundai%20i20" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hyundai i20 Marron -->
+                <div class="car-card" data-category="economy" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/i 20 marron/from_behind_2K_202604091129.png" alt="Hyundai i20 Marron" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/i 20 marron/from_behind_2K_202604091129.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/i 20 marron/from_behind_2K_202604091129.png">
+                            <img src="assets/i 20 marron/from_the_side_202604091129.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/i 20 marron/from_the_side_202604091129.png">
+                            <img src="assets/i 20 marron/hide_the_matricuke_202604091129.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/i 20 marron/hide_the_matricuke_202604091129.png">
+                            <img src="assets/i 20 marron/remove_the_transparent_202604091133.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/i 20 marron/remove_the_transparent_202604091133.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Hyundai i20 Marron</h3>
+                            <span class="car-card__category">Citadine</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Manuel</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">250</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Hyundai%20i20%20Marron" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Renault Mégane -->
+                <div class="car-card" data-category="family" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/mégane/from_behind_2K_202604081719.png" alt="Renault Mégane" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/mégane/from_behind_2K_202604081719.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/mégane/from_behind_2K_202604081719.png">
+                            <img src="assets/mégane/from_the_side_202604081719.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/mégane/from_the_side_202604081719.png">
+                            <img src="assets/mégane/now_from_inside_202604081719.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/mégane/now_from_inside_202604081719.png">
+                            <img src="assets/mégane/put_this_car_202604081718.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/mégane/put_this_car_202604081718.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Renault Mégane</h3>
+                            <span class="car-card__category">Berline (Familiale)</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Manuel</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">350</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Renault%20M%C3%A9gane" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Peugeot 208 -->
+                <div class="car-card" data-category="economy" data-aos="fade-up">
+                    <div class="car-card__image">
+                        <img src="assets/peugeot 208/poser_cette_voiture_202604081654.png" alt="Peugeot 208" class="car-card__main-img">
+                        <div class="car-card__thumbnails">
+                            <img src="assets/peugeot 208/poser_cette_voiture_202604081654.png" alt="Thumb 1" class="gallery-thumb active" data-src="assets/peugeot 208/poser_cette_voiture_202604081654.png">
+                            <img src="assets/peugeot 208/now_from_infront_202604081658.png" alt="Thumb 2" class="gallery-thumb" data-src="assets/peugeot 208/now_from_infront_202604081658.png">
+                            <img src="assets/peugeot 208/from_inside_2K_202604081654.png" alt="Thumb 3" class="gallery-thumb" data-src="assets/peugeot 208/from_inside_2K_202604081654.png">
+                            <img src="assets/peugeot 208/behind_the_car_202604081658.png" alt="Thumb 4" class="gallery-thumb" data-src="assets/peugeot 208/behind_the_car_202604081658.png">
+                        </div>
+                    </div>
+                    <div class="car-card__body">
+                        <div class="car-card__header">
+                            <h3 class="car-card__name">Peugeot 208</h3>
+                            <span class="car-card__category">Citadine</span>
+                        </div>
+                        <div class="car-card__tags">
+                            <span class="car-tag">Manuel</span>
+                            <span class="car-tag">Climatisé</span>
+                        </div>
+                        <div class="car-card__price-block">
+                            <span class="price__amount">300</span>
+                            <span class="price__currency">DH</span>
+                            <span class="price__unit">/ jour</span>
+                        </div>
+                        <span class="min-days">⚠ Minimum 3 jours</span>
+                        
+                        <a href="https://wa.me/212635482809?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Peugeot%20208" class="btn--wa-full" target="_blank">
+                            📱 Réserver WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section id="services" class="services">
+        <div class="services__container">
+            <div class="section-header">
+                <span class="section-tag">Nos Services</span>
+                <h2 class="section-title">Une Expérience <span class="text--gradient">Sans Compromis</span></h2>
+                <p class="section-subtitle">Parce que le luxe, c'est aussi la simplicité. Nous nous occupons de tout.</p>
+            </div>
+            <div class="services__grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-card__icon-wrap">
+                        <span class="service-card__icon">🚗</span>
+                    </div>
+                    <h3 class="service-card__title">Location Courte Durée</h3>
+                    <p class="service-card__desc">De 1 jour à 1 mois. Idéal pour les vacances ou les déplacements professionnels à Marrakech.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" style="--delay: 0.1s;">
+                    <div class="service-card__icon-wrap">
+                        <span class="service-card__icon">📅</span>
+                    </div>
+                    <h3 class="service-card__title">Location Longue Durée</h3>
+                    <p class="service-card__desc">Tarifs dégressifs pour les locations de plus d'un mois. Flexibilité et économies garanties.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" style="--delay: 0.2s;">
+                    <div class="service-card__icon-wrap">
+                        <span class="service-card__icon">👔</span>
+                    </div>
+                    <h3 class="service-card__title">Avec Chauffeur</h3>
+                    <p class="service-card__desc">Chauffeurs professionnels bilingues. Discrétion, ponctualité et connaissance parfaite de la ville.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" style="--delay: 0.3s;">
+                    <div class="service-card__icon-wrap">
+                        <span class="service-card__icon">✈️</span>
+                    </div>
+                    <h3 class="service-card__title">Transfert Aéroport</h3>
+                    <p class="service-card__desc">Votre véhicule vous attend à l'aéroport. Livraison et récupération incluses dans le prix.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" style="--delay: 0.4s;">
+                    <div class="service-card__icon-wrap">
+                        <span class="service-card__icon">🛡️</span>
+                    </div>
+                    <h3 class="service-card__title">Assurance Complète</h3>
+                    <p class="service-card__desc">Tous nos véhicules sont couverts par une assurance tous risques. Roulez l'esprit tranquille.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" style="--delay: 0.5s;">
+                    <div class="service-card__icon-wrap">
+                        <span class="service-card__icon">🔧</span>
+                    </div>
+                    <h3 class="service-card__title">Assistance 24/7</h3>
+                    <p class="service-card__desc">Service d'assistance disponible jour et nuit. En cas de panne, nous intervenons rapidement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===================== AIRPORT SHUTTLE ===================== -->
+    <section id="shuttle" class="shuttle">
+        <div class="shuttle__container">
+            <div class="shuttle__content" data-aos="fade-right">
+                <div class="shuttle__badge">Service Exclusif</div>
+                <h2 class="shuttle__title">Navette Aéroport ✈️</h2>
+                <h3 class="shuttle__subtitle">Aéroport Marrakech Menara ⇄ Centre-ville</h3>
+                <p class="shuttle__desc">Profitez d'un transfert privé, confortable et ponctuel. Fini l'attente et le stress à l'arrivée ! Nos chauffeurs vous accueillent avec une pancarte à votre nom.</p>
+                <div class="shuttle__features">
+                    <span>✅ Chauffeur professionnel</span>
+                    <span>✅ Véhicule climatisé</span>
+                    <span>✅ Ponctualité garantie</span>
+                </div>
+                <div class="shuttle__action">
+                    <div class="shuttle__price-box">
+                        <span class="price-from">À partir de</span>
+                        <div class="price-value">10<span class="price-currency">€</span></div>
+                    </div>
+                    <a href="https://wa.me/212661240710?text=Bonjour,%20je%20souhaite%20réserver%20une%20navette%20de%20l'aéroport%20de%20Marrakech." class="btn btn--whatsapp btn--lg" target="_blank">
+                        📱 Réserver sur WhatsApp
+                    </a>
+                </div>
+            </div>
+            <div class="shuttle__visual" data-aos="fade-left">
+                <div class="shuttle__glass-card">
+                    <div class="route">
+                        <div class="route-point">
+                            <div class="route-icon">✈️</div>
+                            <div class="route-text">
+                                <strong>Aéroport RAK</strong>
+                                <span>Marrakech-Ménara</span>
+                            </div>
+                        </div>
+                        <div class="route-line"></div>
+                        <div class="route-point">
+                            <div class="route-icon">🏨</div>
+                            <div class="route-text">
+                                <strong>Centre-ville</strong>
+                                <span>Hôtel / Riad / Médina</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section id="testimonials" class="testimonials">
+        <div class="testimonials__container">
+            <div class="section-header">
+                <span class="section-tag">Témoignages</span>
+                <h2 class="section-title">Ce que disent <span class="text--gradient">nos Clients</span></h2>
+                <p class="section-subtitle">La satisfaction de nos clients est notre meilleure publicité.</p>
+            </div>
+            
+            <div class="testimonials__track-container">
+                <div class="testimonials__track">
+                    <!-- T1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"Service impeccable ! La voiture était propre, en parfait état. Livraison à l'aéroport sans aucun souci. Je recommande vivement CONFORTLOC."</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 200;">S</div>
+                            <div class="author__info">
+                                <span class="author__name">Sophie Martin</span>
+                                <span class="author__role">Touriste — France</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- T2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"تبارك الله عليكم خدمة نقية والطوموبيل جاتني حتى للمطار، التعامل ديالكم غزال بزاف. شكرا لكم."</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 45;">M</div>
+                            <div class="author__info">
+                                <span class="author__name">Mouad B.</span>
+                                <span class="author__role">Client régulier — Maroc</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- T3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"Very professional! Top-tier service. The Hyundai Tucson we rented was brand new. Communication via WhatsApp was super smooth."</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 320;">J</div>
+                            <div class="author__info">
+                                <span class="author__name">James Walker</span>
+                                <span class="author__role">Business — UK</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- T4 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"Khdma nqiya bzf w les prix mzyanin par rapport l souq. Dazet trip mzyana b tucson. Lah y3tikom seha."</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 150;">Y</div>
+                            <div class="author__info">
+                                <span class="author__name">Yassine E.</span>
+                                <span class="author__role">Marrakech</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- T5 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"تعامل راقي جدا، والموظفين في غاية الاحترام. السيارات جديدة ونظيفة. أنصح بهم بشدة لكل من يزور مراكش."</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 280;">A</div>
+                            <div class="author__info">
+                                <span class="author__name">Ahmed Al-Dossari</span>
+                                <span class="author__role">Touriste — KSA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- T6 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"Excellente expérience pour la navette aéroport. Le chauffeur était là avec une pancarte malgré le retard de notre vol. Classe!"</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 10;">C</div>
+                            <div class="author__info">
+                                <span class="author__name">Chloé D.</span>
+                                <span class="author__role">Touriste — Belgique</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- duplicated for infinite scroll -->
+                    <!-- T1 -->
+                    <div class="testimonial-card" aria-hidden="true">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"Service impeccable ! La voiture était propre, en parfait état. Livraison à l'aéroport sans aucun souci. Je recommande vivement CONFORTLOC."</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 200;">S</div>
+                            <div class="author__info">
+                                <span class="author__name">Sophie Martin</span>
+                                <span class="author__role">Touriste — France</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- T2 -->
+                    <div class="testimonial-card" aria-hidden="true">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"تبارك الله عليكم خدمة نقية والطوموبيل جاتني حتى للمطار، التعامل ديالكم غزال بزاف. شكرا لكم."</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 45;">M</div>
+                            <div class="author__info">
+                                <span class="author__name">Mouad B.</span>
+                                <span class="author__role">Client régulier — Maroc</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- T3 -->
+                    <div class="testimonial-card" aria-hidden="true">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"Very professional! Top-tier service. The Hyundai Tucson we rented was brand new. Communication via WhatsApp was super smooth."</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 320;">J</div>
+                            <div class="author__info">
+                                <span class="author__name">James Walker</span>
+                                <span class="author__role">Business — UK</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- T4 -->
+                    <div class="testimonial-card" aria-hidden="true">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"Khdma nqiya bzf w les prix mzyanin par rapport l souq. Dazet trip mzyana b tucson. Lah y3tikom seha."</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 150;">Y</div>
+                            <div class="author__info">
+                                <span class="author__name">Yassine E.</span>
+                                <span class="author__role">Marrakech</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- T5 -->
+                    <div class="testimonial-card" aria-hidden="true">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"تعامل راقي جدا، والموظفين في غاية الاحترام. السيارات جديدة ونظيفة. أنصح بهم بشدة لكل من يزور مراكش."</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 280;">A</div>
+                            <div class="author__info">
+                                <span class="author__name">Ahmed Al-Dossari</span>
+                                <span class="author__role">Touriste — KSA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- T6 -->
+                    <div class="testimonial-card" aria-hidden="true">
+                        <div class="testimonial-card__stars">★★★★★</div>
+                        <p class="testimonial-card__text">"Excellente expérience pour la navette aéroport. Le chauffeur était là avec une pancarte malgré le retard de notre vol. Classe!"</p>
+                        <div class="testimonial-card__author">
+                            <div class="author__avatar" style="--hue: 10;">C</div>
+                            <div class="author__info">
+                                <span class="author__name">Chloé D.</span>
+                                <span class="author__role">Touriste — Belgique</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CTA SECTION ===================== -->
+    <section class="cta-section">
+        <div class="cta__container">
+            <div class="cta__content">
+                <h2 class="cta__title">Prêt à <span class="text--gradient">Réserver</span> ?</h2>
+                <p class="cta__text">Contactez-nous maintenant et repartez avec le véhicule de vos rêves. Réponse garantie en moins de 5 minutes.</p>
+                <div class="cta__buttons">
+                    <a href="https://wa.me/212635482809" class="btn btn--whatsapp btn--lg" target="_blank">
+                        <span class="whatsapp-icon">💬</span>
+                        <span>Réserver via WhatsApp</span>
+                    </a>
+                    <a href="tel:+212635482809" class="btn btn--outline btn--lg">
+                        📞 Appeler Maintenant
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT / MAP ===================== -->
+    <section id="contact" class="contact">
+        <div class="contact__container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Nos <span class="text--gradient">Agences</span></h2>
+            </div>
+            <div class="contact__grid">
+                <div class="contact__info">
+                    <div class="contact-item">
+                        <span class="contact-item__icon">📍</span>
+                        <div>
+                            <h4>Marrakech</h4>
+                            <p>Avenue Mohammed V, Guéliz, Marrakech</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-item__icon">📍</span>
+                        <div>
+                            <h4>Casablanca</h4>
+                            <p>Boulevard Zerktouni, Casablanca</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-item__icon">📞</span>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+212 661 240 710</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-item__icon">✉️</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@confortloc.ma</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-item__icon">🕐</span>
+                        <div>
+                            <h4>Horaires</h4>
+                            <p>Lun-Dim : 08h00 — 22h00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__form-wrap">
+                    <form class="contact__form" id="contactForm">
+                        <h3 class="form__title">Demande de Devis</h3>
+                        <div class="form__row">
+                            <input type="text" placeholder="Nom complet" required class="form__input" id="formName">
+                            <input type="tel" placeholder="Téléphone" required class="form__input" id="formPhone">
+                        </div>
+                        <input type="email" placeholder="Email" class="form__input" id="formEmail">
+                        <select class="form__input" id="formVehicle">
+                            <option value="">Choisir un véhicule</option>
+                            <option>Hyundai Tucson</option>
+                            <option>Dacia Duster</option>
+                            <option>Renault Clio 5</option>
+                            <option>Kia Picanto</option>
+                            <option>Hyundai Bayon</option>
+                            <option>Opel Corsa F</option>
+                            <option>Citroën C-Elysée</option>
+                            <option>Citroën C4</option>
+                            <option>Hyundai Elantra</option>
+                            <option>Dacia Logan</option>
+                            <option>Dacia Sandero Stepway</option>
+                            <option>Hyundai Accent</option>
+                            <option>Hyundai i20</option>
+                            <option>Hyundai i20 Marron</option>
+                            <option>Renault Mégane</option>
+                            <option>Peugeot 208</option>
+                        </select>
+                        <div class="form__row">
+                            <input type="date" class="form__input" id="formDateStart" required>
+                            <input type="date" class="form__input" id="formDateEnd" required>
+                        </div>
+                        <textarea placeholder="Message (optionnel)" class="form__input form__textarea" id="formMessage"></textarea>
+                        <button type="submit" class="btn btn--primary btn--lg btn--full">Envoyer la Demande</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="#" class="header__logo">
+                        <img src="assets/img/logo.png" alt="COMFORLOC Logo" style="height: 60px; object-fit: contain; width: auto; max-width: 350px; transform: scale(1.15);">
+                    </a>
+                    <p class="footer__desc">Location de voitures premium au Maroc. Une expérience de conduite exceptionnelle pensée pour une clientèle exigeante.</p>
+
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">Services</h4>
+                    <a href="#">Location courte durée</a>
+                    <a href="#">Location longue durée</a>
+                    <a href="#">Location avec chauffeur</a>
+                    <a href="#">Transfert aéroport</a>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">Villes</h4>
+                    <a href="#">Marrakech</a>
+                    <a href="#">Casablanca</a>
+                    <a href="#">Agadir</a>
+                    <a href="#">Rabat</a>
+                    <a href="#">Tanger</a>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">Informations</h4>
+                    <a href="#">À propos</a>
+                    <a href="#">Conditions générales</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2026 CONFORTLOC — Location de voitures premium au Maroc. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/212661240710" class="whatsapp-float" target="_blank" aria-label="Contact WhatsApp">
+        <span>💬</span>
+    </a>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTopBtn" aria-label="Retour en haut">↑</button>
+
+    <!-- Lightbox for full picture -->
+    <div class="lightbox" id="imageLightbox">
+        <span class="lightbox__close" id="lightboxClose">&times;</span>
+        <span class="lightbox__nav lightbox__nav--prev" id="lightboxPrev">&#10094;</span>
+        <img src="" alt="Full view" class="lightbox__content" id="lightboxImg">
+        <span class="lightbox__nav lightbox__nav--next" id="lightboxNext">&#10095;</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
