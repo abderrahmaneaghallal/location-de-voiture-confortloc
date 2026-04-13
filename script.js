@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     card.classList.remove('hidden');
                     card.style.transitionDelay = `${i * 0.05}s`;
                     // Re-trigger animation
+                    card.classList.add('animate-ready');
                     card.classList.remove('visible');
                     requestAnimationFrame(() => {
                         requestAnimationFrame(() => {
@@ -97,8 +98,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ---- Scroll reveal / Intersection Observer ----
     const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
+        threshold: 0.05,
+        rootMargin: '0px 0px -20px 0px'
     };
 
     const observer = new IntersectionObserver((entries) => {
@@ -114,8 +115,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    // Observe all animated elements
+    // Mark elements as animate-ready THEN observe — keeps them visible if JS fails
     document.querySelectorAll('.car-card, .service-card, .testimonial-card').forEach(el => {
+        el.classList.add('animate-ready');
         observer.observe(el);
     });
 
@@ -175,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (dateEnd) waMessage += `📅 Au : ${dateEnd}\n`;
             if (message) waMessage += `💬 Message : ${message}\n`;
 
-            const waUrl = `https://wa.me/212600000000?text=${encodeURIComponent(waMessage)}`;
+            const waUrl = `https://wa.me/212661240710?text=${encodeURIComponent(waMessage)}`;
             window.open(waUrl, '_blank');
 
             // Show confirmation
